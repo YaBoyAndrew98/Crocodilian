@@ -1,54 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <elements>
-  <element name="Siren" type="Race" source="Homebrew" id="ID_CUSTOM_RACE_SIREN">
-    <description>
-<div>
-<p>Sirens commonly appear as an amalgamation of a beautiful woman and some form of sea life; typically, they acquire features such as fins, claws, gills, and tails, and wield these features as natural extensions of their own bodies. Some have even been known to possess wings, a trait reminiscent of seafowl, but one used to deadly effect.</p>
-<h4>History</h4>
-<p>The sirens of the Emerald Coast are not born in the way mortals understand life. They are spawned through an ancient rite known as The Crimson Calling—a sacred blood ritual performed only by the reigning Matron. This rite draws on the accumulated lifeblood of mortals, harvesting both flesh and essence. When enough essence has been gathered, a siren begins to ascend, eventually performing the Calling herself, sacrificing her form to create new sirens.</p>
-<h4>Society</h4>
-<p>Sirens are fascinated with art, particularly song. They dwell in deep coral structures adorned with pearlescent carvings and treasures. Their matriarchal society is led by a Matron, followed by elite Maidens who may one day succeed her through the Crimson Calling.</p>
-<h4>Siren Names</h4>
-<p>Sirens tend toward fluid, melodic names.</p>
-<p><b><i>Female Names: </i></b>Nessia, Thalira, Vaelis, Cirell, Ylvessa, Marelline</p>
-<h4>Siren Traits</h4>
-<p>You are a born predator of the sea, feared for your haunting voice and shapeshifting aquatic form.</p>
-<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1, and you may increase one other ability score of your choice by 1.</p>
-<p class="indent"><strong><em>Age.</em></strong> Sirens reach maturity by 40 and live up to 250 years. They do not visibly age after reaching maturity.</p>
-<p class="indent"><strong><em>Alignment.</em></strong> Sirens lean toward neutral or evil, often following their desires with obsessive focus.</p>
-<p class="indent"><strong><em>Size.</em></strong> Sirens stand between 5 and 6 feet tall. Your size is Medium.</p>
-<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
-<p class="indent"><strong><em>Fey.</em></strong> Your creature type is fey, not humanoid.</p>
-<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness.</p>
-<p class="indent"><strong><em>Amphibious.</em></strong> You can breathe both air and water.</p>
-<p class="indent"><strong><em>Siren’s Body.</em></strong> As a bonus action, you may transform into an aquatic form, reducing your walking speed to 0 but gaining a 40 ft. swim speed. You may revert as a bonus action.</p>
-<p class="indent"><strong><em>Natural Weapons.</em></strong> You have claws and a bite attack. Claws deal 1d4 + Strength modifier slashing damage. Bite deals 1d4 piercing damage.</p>
-<p class="indent"><strong><em>Haunting Cry.</em></strong> You have proficiency in Charisma (Performance) when singing, and add double your proficiency bonus. You know the friends cantrip. At 3rd level, you can cast charm person once per long rest. At 5th level, you may also cast suggestion once per long rest. Charisma is your spellcasting ability.</p>
-<p class="indent"><strong><em>Charm Immunity.</em></strong> You are immune to being charmed.</p>
-<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Aquan, and Auran.</p>
-</div>
+<info>
+<name>Crocodilian</name>
+<description>A playable crocodilian race for Aurora Builder, adapted from the D&D Wiki Crocodilian race concept.</description>
+<author url="https://www.dandwiki.com/wiki/Crocodilian_(5e_Race)">D&D Wiki / Homebrew Adaptation</author>
+<update version="1.0.0">
+<file name="Crocodilian.xml" url="https://raw.githubusercontent.com/YaBoyAndrew98/Siren/main/Crocodilian.xml"/>
+</update>
+</info>
+<element name="Crocodilian" type="Race" source="Homebrew" id="ID_CUSTOM_RACE_CROCODILIAN">
+<description>
+<p>Crocodilians are powerful reptilian humanoids with thick scales, crushing jaws, muscular tails, and an instinctive connection to rivers, swamps, and deep water. They are often broad, heavy, and intimidating, built for ambush and endurance rather than grace.</p>
+<h4>Crocodilian Traits</h4>
+<p>Your crocodilian character has the following racial traits.</p>
+<p class="indent">
+<strong>
+<em>Ability Score Increase.</em>
+</strong>
+Your Constitution score increases by 2, and your Wisdom score increases by 1.
+</p>
+<p class="indent">
+<strong>
+<em>Age.</em>
+</strong>
+Crocodilians mature around the same age as lizardfolk and rarely live longer than 60 years.
+</p>
+<p class="indent">
+<strong>
+<em>Alignment.</em>
+</strong>
+Crocodilians tend toward neutrality. They understand the world through survival, territory, strength, and patience.
+</p>
+<p class="indent">
+<strong>
+<em>Size.</em>
+</strong>
+Crocodilians are bulky and powerful, often standing taller and weighing more than most humans. Your size is Medium.
+</p>
+<p class="indent">
+<strong>
+<em>Speed.</em>
+</strong>
+Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.
+</p>
+<p class="indent">
+<strong>
+<em>Languages.</em>
+</strong>
+You can speak, read, and write Common and Draconic.
+</p>
+<p class="indent">
+<strong>
+<em>Hold Breath.</em>
+</strong>
+You can hold your breath for up to 15 minutes at a time.
+</p>
+<p class="indent">
+<strong>
+<em>Hunter's Lore.</em>
+</strong>
+You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.
+</p>
+<p class="indent">
+<strong>
+<em>Crushing Bite.</em>
+</strong>
+Your powerful jaws are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d8 + your Strength modifier instead of the bludgeoning damage normal for an unarmed strike.
+</p>
+<p class="indent">
+<strong>
+<em>Tail Attack.</em>
+</strong>
+Your tail is a natural weapon, which you can use to make unarmed strikes. If you hit with your tail, you deal bludgeoning damage equal to 1d6 + your Strength modifier.
+</p>
+<p class="indent">
+<strong>
+<em>Powerful Build.</em>
+</strong>
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+</p>
+<p class="indent">
+<strong>
+<em>Grasping Jaws.</em>
+</strong>
+Immediately after hitting a creature with your bite attack, you can make a grapple attempt against that creature with advantage without using an action.
+</p>
 </description>
-    <sheet display="false"/>
-    <setters>
-      <set name="names" type="female">Aurera, Ketet, Menhit, Sefkhabu, Surhet</set>
-      <set name="names-format">{{name}}</set>
-      <set name="height" modifier="1d10">6'1"</set>
-      <set name="weight" modifier="1d10">190 lb.</set>
-    </setters>
-    <rules>
-      <stat name="charisma" value="1" />
-   <select type="Ability Score Improvement" name="Custom ASI +1 (Siren)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA"/>
-      <stat name="innate speed" value="30" bonus="base"/>
-      <stat name="speed:swim" value="40" bonus="base"/>
-      <stat name="speed:fly" value="30" bonus="base"/>
-      <grant type="Language" id="ID_LANGUAGE_COMMON"/>
-      <select type="Language" name="Language (Siren)" supports="Standard||Exotic" number="2"/>
-<select type="Racial Trait" name="Path of Matron (Level 1)" supports="Path of Matron, 1"/>
-<select type="Racial Trait" name="Path of Matron (Level 2)" supports="Path of Matron, 2" level="2"/>
-<select type="Racial Trait" name="Path of Matron (Level 3)" supports="Path of Matron, 3" level="3"/>
-<select type="Racial Trait" name="Path of Matron (Level 5)" supports="Path of Matron, 5" level="5"/>
-<select type="Racial Trait" name="Path of Matron (Level 7)" supports="Path of Matron, 7" level="7"/>
-<select type="Racial Trait" name="Path of Matron (Level 11)" supports="Path of Matron, 11" level="11"/>
-    </rules>
-  </element>
+<sheet display="false"/>
+<setters>
+<set name="names" type="male">Brak, Ghar, Kresh, Rusk, Ssar, Thok</set>
+<set name="names" type="female">Ashka, Brina, Kessa, Nira, Satha, Veshka</set>
+<set name="names-format">{{name}}</set>
+<set name="height" modifier="2d10">6'6"</set>
+<set name="weight" modifier="2d12">240 lb.</set>
+</setters>
+<rules>
+<stat name="constitution" value="2"/>
+<stat name="wisdom" value="1"/>
+<stat name="innate speed" value="30" bonus="base"/>
+<stat name="speed:swim" value="30" bonus="base"/>
+<grant type="Size" id="ID_SIZE_MEDIUM"/>
+<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+<grant type="Language" id="ID_LANGUAGE_DRACONIC"/>
+<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_HOLD_BREATH"/>
+<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_HUNTERS_LORE"/>
+<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_CRUSHING_BITE"/>
+<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_TAIL_ATTACK"/>
+<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_POWERFUL_BUILD"/>
+<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_GRASPING_JAWS"/>
+</rules>
+</element>
+<element name="Hold Breath" type="Racial Trait" source="Homebrew" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_HOLD_BREATH">
+<description>
+<p>You can hold your breath for up to 15 minutes at a time.</p>
+</description>
+<sheet>
+<description>You can hold your breath for up to 15 minutes at a time.</description>
+</sheet>
+</element>
+<element name="Hunter's Lore" type="Racial Trait" source="Homebrew" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_HUNTERS_LORE">
+<description>
+<p>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
+</description>
+<sheet>
+<description>You gain proficiency with two of the following skills: Animal Handling, Nature, Perception, Stealth, and Survival.</description>
+</sheet>
+</element>
+<element name="Crushing Bite" type="Racial Trait" source="Homebrew" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_CRUSHING_BITE">
+<description>
+<p>Your powerful jaws are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d8 + your Strength modifier instead of the bludgeoning damage normal for an unarmed strike.</p>
+</description>
+<sheet>
+<description>Your bite is a natural weapon. On hit, it deals 1d8 + {{strength:modifier}} piercing damage.</description>
+</sheet>
+</element>
+<element name="Tail Attack" type="Racial Trait" source="Homebrew" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_TAIL_ATTACK">
+<description>
+<p>Your tail is a natural weapon, which you can use to make unarmed strikes. If you hit with your tail, you deal bludgeoning damage equal to 1d6 + your Strength modifier.</p>
+</description>
+<sheet>
+<description>Your tail is a natural weapon. On hit, it deals 1d6 + {{strength:modifier}} bludgeoning damage.</description>
+</sheet>
+</element>
+<element name="Powerful Build" type="Racial Trait" source="Homebrew" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_POWERFUL_BUILD">
+<description>
+<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+</description>
+<sheet>
+<description>You count as one size larger when determining carrying capacity and the weight you can push, drag, or lift.</description>
+</sheet>
+</element>
+<element name="Grasping Jaws" type="Racial Trait" source="Homebrew" id="ID_CUSTOM_RACIAL_TRAIT_CROCODILIAN_GRASPING_JAWS">
+<description>
+<p>Immediately after hitting a creature with your bite attack, you can make a grapple attempt against that creature with advantage without using an action.</p>
+</description>
+<sheet>
+<description>After hitting with your bite, you can make a grapple attempt with advantage without using an action.</description>
+</sheet>
+</element>
 </elements>
